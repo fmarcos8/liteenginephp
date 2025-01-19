@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Olá!</h1>
+    <p>Teste de Lista com TWIG {{ dump(query) }}</p>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.name|e }} - {{ item.quantity }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
