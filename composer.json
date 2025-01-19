@@ -1,7 +1,7 @@
 {
     "name": "fmarcos8/liteenginephp",
     "description": "Apenas uma tentativa de criar um framework PHP para aprendizado!",
-    "version": "0.0.1-prealpha",
+    "version": "v0.0.2-alpha",
     "autoload": {
         "psr-4": {
             "App\\": "app/",
